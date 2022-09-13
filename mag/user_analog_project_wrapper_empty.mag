@@ -1,11 +1,6 @@
 magic
-tech $PDK
-timestamp 1632839657
-<< checkpaint >>
-rect -680 351370 292680 352680
-rect -680 630 630 351370
-rect 291370 630 292680 351370
-rect -680 -680 292680 630
+tech sky130A
+timestamp 1663084127
 << metal2 >>
 rect 262 -400 318 240
 rect 853 -400 909 240
@@ -705,6 +700,10 @@ rect -50 352000 292050 352050
 rect -50 0 0 352000
 rect 292000 0 292050 352000
 rect -50 -50 292050 0
+use ComparatorQpixLayout  ComparatorQpixLayout_0
+timestamp 1662920931
+transform 1 0 141530 0 1 236055
+box 665 -2290 4065 -190
 << labels >>
 flabel metal3 s 291760 134615 292400 134671 0 FreeSans 560 0 0 0 gpio_analog[0]
 port 0 nsew signal bidirectional
