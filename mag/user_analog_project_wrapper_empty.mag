@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1663084127
+timestamp 1663465804
 << metal2 >>
 rect 262 -400 318 240
 rect 853 -400 909 240
@@ -702,8 +702,12 @@ rect 292000 0 292050 352000
 rect -50 -50 292050 0
 use ComparatorQpixLayout  ComparatorQpixLayout_0
 timestamp 1662920931
-transform 1 0 141530 0 1 236055
+transform 1 0 348485 0 1 355399
 box 665 -2290 4065 -190
+use mosarray  mosarray_0
+timestamp 1663465520
+transform 1 0 1590 0 1 1620
+box 0 -125 282455 337500
 << labels >>
 flabel metal3 s 291760 134615 292400 134671 0 FreeSans 560 0 0 0 gpio_analog[0]
 port 0 nsew signal bidirectional

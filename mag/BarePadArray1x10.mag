@@ -1,0 +1,12 @@
+magic
+tech sky130A
+timestamp 1663099175
+use BarePadArray1x5  BarePadArray1x5_0
+timestamp 1663099175
+transform 1 0 -115 0 1 840
+box 115 -840 112615 22160
+use BarePadArray1x5  BarePadArray1x5_1
+timestamp 1663099175
+transform 1 0 112385 0 1 840
+box 115 -840 112615 22160
+<< end >>

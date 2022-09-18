@@ -1,0 +1,58 @@
+magic
+tech sky130A
+timestamp 1663476696
+<< metal1 >>
+rect 2649 925 3610 926
+rect -130 826 3610 925
+rect -130 825 2675 826
+rect -130 435 -30 825
+rect 3510 435 3610 826
+rect -130 395 20 435
+rect 3480 395 3610 435
+rect -130 345 -30 395
+rect -130 305 25 345
+rect 3460 305 3610 345
+rect -130 -25 -30 305
+rect 3510 -25 3610 305
+rect -130 -125 3610 -25
+<< metal4 >>
+rect -370 1130 3865 1165
+rect -370 1005 -315 1130
+rect 3690 1005 3865 1130
+rect -370 970 3865 1005
+rect -370 -165 -175 970
+rect 3670 -165 3865 970
+rect -370 -205 3865 -165
+rect -370 -335 -315 -205
+rect 3665 -210 3865 -205
+rect 3690 -335 3865 -210
+rect -370 -360 3865 -335
+<< via4 >>
+rect -315 1005 3690 1130
+rect -315 -210 3665 -205
+rect -315 -335 3690 -210
+<< metal5 >>
+rect -370 1130 3865 1165
+rect -370 1005 -315 1130
+rect 3690 1005 3865 1130
+rect -370 970 3865 1005
+rect -370 -165 -175 970
+rect 3670 -165 3865 970
+rect -370 -205 3865 -165
+rect -370 -335 -315 -205
+rect 3665 -210 3865 -205
+rect 3690 -335 3865 -210
+rect -370 -360 3865 -335
+use InverterBlock  InverterBlock_0
+timestamp 1663475760
+transform 1 0 210 0 1 475
+box -210 -475 950 335
+use InverterBlock  InverterBlock_1
+timestamp 1663475760
+transform 1 0 1370 0 1 475
+box -210 -475 950 335
+use InverterBlock  InverterBlock_2
+timestamp 1663475760
+transform 1 0 2530 0 1 475
+box -210 -475 950 335
+<< end >>
