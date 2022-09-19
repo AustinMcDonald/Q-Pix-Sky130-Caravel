@@ -1,0 +1,21 @@
+timestamp 1663099175
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use BarePadArray BarePadArray_4 1 0 186390 0 1 25090
+use BarePadArray BarePadArray_3 1 0 141390 0 1 25090
+use BarePadArray BarePadArray_2 1 0 96390 0 1 25090
+use BarePadArray BarePadArray_1 1 0 51390 0 1 25090
+use BarePadArray BarePadArray_0 1 0 6390 0 1 25090
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "BarePadArray_4/VSUBS" "BarePadArray_3/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "BarePadArray_3/VSUBS" "BarePadArray_2/VSUBS"
+merge "BarePadArray_2/VSUBS" "BarePadArray_1/VSUBS"
+merge "BarePadArray_1/VSUBS" "BarePadArray_0/VSUBS"
+merge "BarePadArray_0/VSUBS" "VSUBS"
+merge "BarePadArray_0/m5_n6160_n26770#" "BarePadArray_4/m5_n6160_n26770#" -8391.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -43200 0 0
+merge "BarePadArray_4/m5_n6160_n26770#" "BarePadArray_3/m5_n6160_n26770#"
+merge "BarePadArray_3/m5_n6160_n26770#" "BarePadArray_2/m5_n6160_n26770#"
+merge "BarePadArray_2/m5_n6160_n26770#" "BarePadArray_1/m5_n6160_n26770#"
