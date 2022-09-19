@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1663476696
+timestamp 1663537660
 << metal1 >>
 rect 2649 925 3610 926
 rect -130 826 3610 925
@@ -9,7 +9,6 @@ rect -130 435 -30 825
 rect 3510 435 3610 826
 rect -130 395 20 435
 rect 3480 395 3610 435
-rect -130 345 -30 395
 rect -130 305 25 345
 rect 3460 305 3610 345
 rect -130 -25 -30 305
@@ -44,15 +43,15 @@ rect 3665 -210 3865 -205
 rect 3690 -335 3865 -210
 rect -370 -360 3865 -335
 use InverterBlock  InverterBlock_0
-timestamp 1663475760
+timestamp 1663537495
 transform 1 0 210 0 1 475
 box -210 -475 950 335
 use InverterBlock  InverterBlock_1
-timestamp 1663475760
+timestamp 1663537495
 transform 1 0 1370 0 1 475
 box -210 -475 950 335
 use InverterBlock  InverterBlock_2
-timestamp 1663475760
+timestamp 1663537495
 transform 1 0 2530 0 1 475
 box -210 -475 950 335
 << end >>
