@@ -1,5 +1,8 @@
 * NGSPICE file created from user_analog_project_wrapper.ext - technology: sky130B
 
+.subckt sky130_ef_io__bare_pad PAD
+.ends
+
 .subckt InverterBlock PD VIN VIP VCTRL VOP VON VDD VSS
 X0 VOP VSS sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=1.25e+06u
 X1 VDD VCTRL VON VDD sky130_fd_pr__pfet_01v8 ad=3e+12p pd=1.4e+07u as=7.5e+11p ps=3.5e+06u w=1e+06u l=150000u
@@ -2023,5 +2026,28 @@ X6 vssa2 BarePad_12/PAD opamp_diego_2/vin_p vssa2 sky130_fd_pr__nfet_01v8 ad=0p 
 X7 gpio_analog[12] opamp_diego_5/vin_p sky130_fd_pr__cap_mim_m3_1 l=3.15e+06u w=3.15e+06u
 X8 gpio_analog[4] opamp_diego_1/vin_p sky130_fd_pr__cap_mim_m3_1 l=7.5e+06u w=7.5e+06u
 X9 vssa2 BarePad_20/PAD opamp_diego_4/vin_p vssa2 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.3e+13p ps=3.2e+07u w=1e+06u l=2e+06u
+
+
+XBarePad_0 BarePad_0/PAD sky130_ef_io__bare_pad
+XBarePad_1 BarePad_1/PAD sky130_ef_io__bare_pad
+XBarePad_2 BarePad_2/PAD sky130_ef_io__bare_pad
+XBarePad_3 BarePad_3/PAD sky130_ef_io__bare_pad
+XBarePad_4 BarePad_4/PAD sky130_ef_io__bare_pad
+XBarePad_5 BarePad_5/PAD sky130_ef_io__bare_pad
+XBarePad_6 BarePad_6/PAD sky130_ef_io__bare_pad
+XBarePad_7 BarePad_7/PAD sky130_ef_io__bare_pad
+XBarePad_8 BarePad_8/PAD sky130_ef_io__bare_pad
+XBarePad_9 BarePad_9/PAD sky130_ef_io__bare_pad
+XBarePad_10 BarePad_10/PAD sky130_ef_io__bare_pad
+XBarePad_11 BarePad_11/PAD sky130_ef_io__bare_pad
+XBarePad_12 BarePad_12/PAD sky130_ef_io__bare_pad
+XBarePad_13 BarePad_13/PAD sky130_ef_io__bare_pad
+XBarePad_14 BarePad_14/PAD sky130_ef_io__bare_pad
+XBarePad_15 BarePad_15/PAD sky130_ef_io__bare_pad
+XBarePad_16 BarePad_16/PAD sky130_ef_io__bare_pad
+XBarePad_17 BarePad_17/PAD sky130_ef_io__bare_pad
+XBarePad_18 BarePad_18/PAD sky130_ef_io__bare_pad
+XBarePad_19 BarePad_19/PAD sky130_ef_io__bare_pad
+XBarePad_20 BarePad_20/PAD sky130_ef_io__bare_pad
 .ends
 
