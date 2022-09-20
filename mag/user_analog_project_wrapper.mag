@@ -14482,87 +14482,87 @@ rect -100 704000 584100 704100
 rect -100 0 0 704000
 rect 584000 0 584100 704000
 rect -100 -100 584100 0
-use BarePad  BarePad_0
+use sky130_ef_io__bare_pad BarePad_0
 timestamp 1661870102
 transform 1 0 569940 0 1 242260
 box -540 -540 12540 14540
-use BarePad  BarePad_1
+use sky130_ef_io__bare_pad BarePad_1
 timestamp 1661870102
 transform 1 0 570860 0 1 187820
 box -540 -540 12540 14540
-use BarePad  BarePad_2
+use sky130_ef_io__bare_pad BarePad_2
 timestamp 1661870102
 transform 1 0 570860 0 1 164820
 box -540 -540 12540 14540
-use BarePad  BarePad_3
+use sky130_ef_io__bare_pad BarePad_3
 timestamp 1661870102
 transform 1 0 570860 0 1 141820
 box -540 -540 12540 14540
-use BarePad  BarePad_4
+use sky130_ef_io__bare_pad BarePad_4
 timestamp 1661870102
 transform 1 0 570860 0 1 118820
 box -540 -540 12540 14540
-use BarePad  BarePad_5
+use sky130_ef_io__bare_pad BarePad_5
 timestamp 1661870102
 transform 0 -1 528670 1 0 493270
 box -540 -540 12540 14540
-use BarePad  BarePad_6
+use sky130_ef_io__bare_pad BarePad_6
 timestamp 1661870102
 transform 0 -1 528670 1 0 470270
 box -540 -540 12540 14540
-use BarePad  BarePad_7
+use sky130_ef_io__bare_pad BarePad_7
 timestamp 1661870102
 transform 0 -1 551670 1 0 470270
 box -540 -540 12540 14540
-use BarePad  BarePad_8
+use sky130_ef_io__bare_pad BarePad_8
 timestamp 1661870102
 transform 0 -1 574670 1 0 470270
 box -540 -540 12540 14540
-use BarePad  BarePad_9
+use sky130_ef_io__bare_pad BarePad_9
 timestamp 1661870102
 transform -1 0 551420 0 -1 532090
 box -540 -540 12540 14540
-use BarePad  BarePad_10
+use sky130_ef_io__bare_pad BarePad_10
 timestamp 1661870102
 transform -1 0 574420 0 -1 532090
 box -540 -540 12540 14540
-use BarePad  BarePad_11
+use sky130_ef_io__bare_pad BarePad_11
 timestamp 1661870102
 transform -1 0 574420 0 -1 555090
 box -540 -540 12540 14540
-use BarePad  BarePad_12
+use sky130_ef_io__bare_pad BarePad_12
 timestamp 1661870102
 transform -1 0 574420 0 -1 578090
 box -540 -540 12540 14540
-use BarePad  BarePad_13
+use sky130_ef_io__bare_pad BarePad_13
 timestamp 1661870102
 transform -1 0 498830 0 -1 531960
 box -540 -540 12540 14540
-use BarePad  BarePad_14
+use sky130_ef_io__bare_pad BarePad_14
 timestamp 1661870102
 transform -1 0 521830 0 -1 531960
 box -540 -540 12540 14540
-use BarePad  BarePad_15
+use sky130_ef_io__bare_pad BarePad_15
 timestamp 1661870102
 transform -1 0 521830 0 -1 554960
 box -540 -540 12540 14540
-use BarePad  BarePad_16
+use sky130_ef_io__bare_pad BarePad_16
 timestamp 1661870102
 transform -1 0 521830 0 -1 577960
 box -540 -540 12540 14540
-use BarePad  BarePad_17
+use sky130_ef_io__bare_pad BarePad_17
 timestamp 1661870102
 transform -1 0 506820 0 -1 627620
 box -540 -540 12540 14540
-use BarePad  BarePad_18
+use sky130_ef_io__bare_pad BarePad_18
 timestamp 1661870102
 transform -1 0 529820 0 -1 627620
 box -540 -540 12540 14540
-use BarePad  BarePad_19
+use sky130_ef_io__bare_pad BarePad_19
 timestamp 1661870102
 transform -1 0 529820 0 -1 650620
 box -540 -540 12540 14540
-use BarePad  BarePad_20
+use sky130_ef_io__bare_pad BarePad_20
 timestamp 1661870102
 transform -1 0 529820 0 -1 673620
 box -540 -540 12540 14540

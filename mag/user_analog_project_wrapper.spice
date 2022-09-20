@@ -1,4 +1,4 @@
-* NGSPICE file created from user_analog_project_wrapper_empty.ext - technology: sky130A
+* NGSPICE file created from user_analog_project_wrapper.ext - technology: sky130A
 
 .subckt InverterBlock PD VIN VIP VCTRL VOP VON VDD VSS
 X0 VOP VSS sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=1.25e+06u

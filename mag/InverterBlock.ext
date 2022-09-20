@@ -25,42 +25,42 @@ node "VOP" 1031 1749.11 1900 -300 m1 0 0 0 0 0 0 0 0 30000 700 30000 700 0 0 0 0
 node "VCTRL" 2053 990.162 -420 420 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38700 2300 0 0 144000 4880 30400 1080 0 0 0 0 0 0 0 0 0 0
 node "VDD" 9681 4572.76 -420 620 m2 0 0 0 0 483600 3740 0 0 90000 2100 120000 2800 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 275400 8740 622300 12160 293600 5960 0 0 0 0 0 0 0 0
 substrate "VSS" 0 0 -420 -900 m4 0 0 0 0 0 0 0 0 30000 700 60000 1400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 195600 6400 373900 7420 290000 6000 559600 8420 232000 4840 0 0 0 0
-cap "VON" "VCTRL" 135.801
-cap "li_1320_n610#" "VOP" 18.0796
-cap "li_1320_n610#" "VIN" 0.204082
-cap "VIP" "VCTRL" 30.7708
-cap "a_210_n610#" "VOP" 229.854
-cap "PD" "VDD" 179.075
-cap "a_210_n610#" "VIN" 26.8228
-cap "VOP" "VON" 1155.33
+cap "VON" "a_210_n610#" 443.894
+cap "VDD" "PD" 179.075
 cap "PD" "li_1320_n610#" 81.4456
-cap "VON" "VIN" 43.8166
-cap "li_1320_n610#" "VDD" 10.551
-cap "PD" "a_210_n610#" 139.115
-cap "VIP" "VOP" 118.941
-cap "a_210_n610#" "VDD" 123.761
-cap "VIP" "VIN" 297.834
-cap "VOP" "VCTRL" 162.176
-cap "PD" "VON" 131.188
+cap "VOP" "VON" 1155.33
+cap "VOP" "a_210_n610#" 229.854
 cap "VIN" "VCTRL" 6.77112
-cap "VON" "VDD" 992.214
-cap "a_210_n610#" "li_1320_n610#" 29.8179
-cap "li_1320_n610#" "VON" 14.1784
-cap "PD" "VIP" 21.1651
-cap "VIP" "VDD" 241.63
+cap "VCTRL" "VIP" 30.7708
+cap "VDD" "VON" 992.214
+cap "VDD" "a_210_n610#" 123.761
+cap "VON" "li_1320_n610#" 14.1784
 cap "PD" "VCTRL" 30.1393
-cap "VDD" "VCTRL" 1052.14
-cap "a_210_n610#" "VON" 443.894
-cap "VOP" "VIN" 112.643
-cap "li_1320_n610#" "VIP" 0.272179
-cap "li_1320_n610#" "VCTRL" 11.1451
-cap "a_210_n610#" "VIP" 33.0406
-cap "a_210_n610#" "VCTRL" 14.1148
-cap "PD" "VOP" 126.345
-cap "VOP" "VDD" 1701.56
-cap "VIP" "VON" 157.5
+cap "li_1320_n610#" "a_210_n610#" 29.8179
+cap "VDD" "VOP" 1701.56
+cap "VOP" "li_1320_n610#" 18.0796
+cap "VIN" "VIP" 297.834
+cap "VON" "VCTRL" 135.801
+cap "VCTRL" "a_210_n610#" 14.1148
+cap "VDD" "li_1320_n610#" 10.551
 cap "PD" "VIN" 39.817
-cap "VIN" "VDD" 33.1729
+cap "PD" "VIP" 21.1651
+cap "VOP" "VCTRL" 162.176
+cap "VDD" "VCTRL" 1052.14
+cap "VCTRL" "li_1320_n610#" 11.1451
+cap "VON" "VIP" 157.5
+cap "VIN" "VON" 43.8166
+cap "VIN" "a_210_n610#" 26.8228
+cap "a_210_n610#" "VIP" 33.0406
+cap "VOP" "VIN" 112.643
+cap "VOP" "VIP" 118.941
+cap "PD" "VON" 131.188
+cap "PD" "a_210_n610#" 139.115
+cap "VDD" "VIN" 33.1729
+cap "VDD" "VIP" 241.63
+cap "PD" "VOP" 126.345
+cap "li_1320_n610#" "VIP" 0.272179
+cap "VIN" "li_1320_n610#" 0.204082
 device csubckt sky130_fd_pr__cap_mim_m3_1 1600 -550 1601 -549 w=250 l=400 "None" "VON" 560 0 "VSS" 224 0
 device csubckt sky130_fd_pr__cap_mim_m3_1 1040 -550 1041 -549 w=250 l=400 "None" "VOP" 560 0 "VSS" 224 0
 device msubckt sky130_fd_pr__nfet_01v8 840 -610 841 -609 l=30 w=200 "VSS" "PD" 60 0 "VSS" 200 0 "a_210_n610#" 200 0

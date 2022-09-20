@@ -87,19 +87,19 @@ rect 5905 -4400 6405 -3900
 rect 9935 -4405 10435 -3900
 rect 19170 -13135 19420 9365
 rect -3080 -13385 19420 -13135
-use BarePad  BarePad_0
+use sky130_ef_io__bare_pad BarePad_0
 timestamp 1661870102
 transform 1 0 265 0 1 270
 box -270 -270 6270 7270
-use BarePad  BarePad_1
+use sky130_ef_io__bare_pad BarePad_1
 timestamp 1661870102
 transform 1 0 265 0 1 -11040
 box -270 -270 6270 7270
-use BarePad  BarePad_2
+use sky130_ef_io__bare_pad BarePad_2
 timestamp 1661870102
 transform 1 0 10075 0 1 -11040
 box -270 -270 6270 7270
-use BarePad  BarePad_3
+use sky130_ef_io__bare_pad BarePad_3
 timestamp 1661870102
 transform 1 0 10075 0 1 270
 box -270 -270 6270 7270
