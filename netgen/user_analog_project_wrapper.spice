@@ -1,7 +1,4 @@
-* NGSPICE file created from user_analog_project_wrapper.ext - technology: sky130A
-
-.subckt sky130_ef_io__bare_pad PAD
-.ends
+* NGSPICE file created from user_analog_project_wrapper.ext - technology: sky130B
 
 .subckt InverterBlock PD VIN VIP VCTRL VOP VON VDD VSS
 X0 VOP VSS sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=1.25e+06u
@@ -78,9 +75,9 @@ X27 a_n920_n3280# a_n920_n3280# VSS VSS sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u 
 X28 VSS a_n920_n3280# a_n920_n5950# VSS sky130_fd_pr__nfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=3e+06u l=350000u
 X29 a_n3330_n4260# Bias1 VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6e+06u l=350000u
 X30 a_n3330_n4260# INN a_n920_n3280# VDD sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6e+06u l=350000u
-X31 a_2320_n5980# OUT sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
-X32 a_n3330_n4260# Bias1 VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6e+06u l=350000u
-X33 a_n920_n5950# INP a_n3330_n4260# VDD sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6e+06u l=350000u
+X31 a_n3330_n4260# Bias1 VDD VDD sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6e+06u l=350000u
+X32 a_n920_n5950# INP a_n3330_n4260# VDD sky130_fd_pr__pfet_01v8_lvt ad=0p pd=0u as=0p ps=0u w=6e+06u l=350000u
+X33 a_2320_n5980# OUT sky130_fd_pr__cap_mim_m3_1 l=1e+07u w=1e+07u
 .ends
 
 .subckt BarePadArray m5_n6160_n26770# BarePad_1/PAD BarePad_2/PAD BarePad_0/PAD BarePad_3/PAD
@@ -1991,23 +1988,23 @@ Xclassic-opamp_1 opamp_diego_1/vin_p BarePad_7/PAD gpio_analog[5] gpio_analog[4]
 + vssa2 vssa2 classic-opamp
 Xclassic-opamp_2 opamp_diego_2/vin_p BarePad_11/PAD io_analog[0] gpio_analog[6] vccd1
 + vssa2 vssa2 classic-opamp
+Xmosarray_0 vssa2 vssa2 vssa2 mosarray
 Xclassic-opamp_3 opamp_diego_3/vin_p BarePad_15/PAD io_analog[2] io_analog[1] vccd1
 + vssa2 vssa2 classic-opamp
-Xmosarray_0 vssa2 vssa2 vssa2 mosarray
 Xclassic-opamp_4 opamp_diego_4/vin_p BarePad_19/PAD io_analog[5] io_analog[4] vccd1
 + vssa2 vssa2 classic-opamp
 Xsky130_fd_sc_hs__buf_16_0 sky130_fd_sc_hs__buf_16_1/A vssa2 vccd1 gpio_noesd[3] vssa2
 + vccd1 sky130_fd_sc_hs__buf_16
-Xclassic-opamp_5 opamp_diego_5/vin_p classic-opamp_5/Bias1 gpio_analog[13] gpio_analog[12]
-+ vccd1 vssa2 vssa2 classic-opamp
 Xsky130_fd_sc_hs__buf_16_1 sky130_fd_sc_hs__buf_16_1/A vssa2 vccd1 gpio_noesd[2] vssa2
 + vccd1 sky130_fd_sc_hs__buf_16
-Xopamp_diego_0 vccd1 BarePad_4/PAD BarePad_0/PAD vssa2 opamp_diego_0/vin_p BarePad_0/PAD
-+ opamp_diego
-Xopamp_diego_1 vccd1 BarePad_6/PAD BarePad_5/PAD vssa2 opamp_diego_1/vin_p BarePad_5/PAD
-+ opamp_diego
+Xclassic-opamp_5 opamp_diego_5/vin_p gpio_noesd[11] gpio_analog[13] gpio_analog[12]
++ vccd1 vssa2 vssa2 classic-opamp
 Xsky130_fd_sc_hs__buf_16_2 ComparatorQpixLayout_0/OUT vssa2 vccd1 io_analog[10] vssa2
 + vccd1 sky130_fd_sc_hs__buf_16
+Xopamp_diego_1 vccd1 BarePad_6/PAD BarePad_5/PAD vssa2 opamp_diego_1/vin_p BarePad_5/PAD
++ opamp_diego
+Xopamp_diego_0 vccd1 BarePad_4/PAD BarePad_0/PAD vssa2 opamp_diego_0/vin_p BarePad_0/PAD
++ opamp_diego
 Xopamp_diego_2 vccd1 BarePad_10/PAD BarePad_9/PAD vssa2 opamp_diego_2/vin_p BarePad_9/PAD
 + opamp_diego
 Xopamp_diego_3 vccd1 BarePad_14/PAD BarePad_13/PAD vssa2 opamp_diego_3/vin_p BarePad_13/PAD
@@ -2022,8 +2019,8 @@ X2 vssa2 gpio_analog[14] opamp_diego_5/vin_p vssa2 sky130_fd_pr__nfet_01v8 ad=0p
 X3 io_analog[1] opamp_diego_3/vin_p sky130_fd_pr__cap_mim_m3_1 l=7.5e+06u w=7.5e+06u
 X4 vssa2 BarePad_8/PAD opamp_diego_1/vin_p vssa2 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.3e+13p ps=3.2e+07u w=1e+06u l=1e+07u
 X5 gpio_analog[6] opamp_diego_2/vin_p sky130_fd_pr__cap_mim_m3_1 l=3.15e+06u w=3.15e+06u
-X6 gpio_analog[12] opamp_diego_5/vin_p sky130_fd_pr__cap_mim_m3_1 l=3.15e+06u w=3.15e+06u
-X7 vssa2 BarePad_12/PAD opamp_diego_2/vin_p vssa2 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.3e+13p ps=3.2e+07u w=1e+06u l=1e+07u
+X6 vssa2 BarePad_12/PAD opamp_diego_2/vin_p vssa2 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.3e+13p ps=3.2e+07u w=1e+06u l=1e+07u
+X7 gpio_analog[12] opamp_diego_5/vin_p sky130_fd_pr__cap_mim_m3_1 l=3.15e+06u w=3.15e+06u
 X8 gpio_analog[4] opamp_diego_1/vin_p sky130_fd_pr__cap_mim_m3_1 l=7.5e+06u w=7.5e+06u
 X9 vssa2 BarePad_20/PAD opamp_diego_4/vin_p vssa2 sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=1.3e+13p ps=3.2e+07u w=1e+06u l=2e+06u
 .ends
