@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1663098988
+timestamp 1663654425
 << metal1 >>
 rect 5975 630 8170 635
 rect 5905 500 8170 630
@@ -65,14 +65,26 @@ rect 10310 -4280 10435 -4030
 rect 9935 -4400 10435 -4280
 << via3 >>
 rect 6030 250 6280 500
+rect 10060 250 10310 500
+rect 6030 -4280 6280 -4030
+rect 10060 -4280 10310 -4030
 << metal4 >>
 rect 5905 500 6405 630
 rect 5905 250 6030 500
 rect 6280 250 6405 500
 rect 5905 130 6405 250
-rect 9935 130 10440 635
-rect 5905 -4400 6405 -3900
-rect 9935 -4405 10435 -3900
+rect 9935 500 10440 635
+rect 9935 250 10060 500
+rect 10310 250 10440 500
+rect 9935 130 10440 250
+rect 5905 -4030 6405 -3900
+rect 5905 -4280 6030 -4030
+rect 6280 -4280 6405 -4030
+rect 5905 -4400 6405 -4280
+rect 9935 -4030 10435 -3900
+rect 9935 -4280 10060 -4030
+rect 10310 -4280 10435 -4030
+rect 9935 -4405 10435 -4280
 << via4 >>
 rect 6030 250 6280 500
 << metal5 >>
@@ -87,20 +99,20 @@ rect 5905 -4400 6405 -3900
 rect 9935 -4405 10435 -3900
 rect 19170 -13135 19420 9365
 rect -3080 -13385 19420 -13135
-use sky130_ef_io__bare_pad BarePad_0
-timestamp 1661870102
+use sky130_ef_io__bare_pad  BarePad_0
+timestamp 1663653243
 transform 1 0 265 0 1 270
 box -270 -270 6270 7270
-use sky130_ef_io__bare_pad BarePad_1
-timestamp 1661870102
+use sky130_ef_io__bare_pad  BarePad_1
+timestamp 1663653243
 transform 1 0 265 0 1 -11040
 box -270 -270 6270 7270
-use sky130_ef_io__bare_pad BarePad_2
-timestamp 1661870102
+use sky130_ef_io__bare_pad  BarePad_2
+timestamp 1663653243
 transform 1 0 10075 0 1 -11040
 box -270 -270 6270 7270
-use sky130_ef_io__bare_pad BarePad_3
-timestamp 1661870102
+use sky130_ef_io__bare_pad  BarePad_3
+timestamp 1663653243
 transform 1 0 10075 0 1 270
 box -270 -270 6270 7270
 << end >>
