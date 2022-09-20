@@ -1,16 +1,16 @@
 magic
 tech sky130A
-timestamp 1663655995
+timestamp 1663665281
 use nmosLVTarray  nmosLVTarray_0
-timestamp 1663655995
+timestamp 1663665281
 transform 0 1 6500 -1 0 224995
 box -5 0 224995 230000
 use pmosLVTarray1  pmosLVTarray1_0
-timestamp 1663655995
+timestamp 1663665281
 transform 0 1 6645 -1 0 382490
 box 44990 -145 157490 229855
 use pmosLVTarray2  pmosLVTarray2_0
-timestamp 1663655995
+timestamp 1663665281
 transform 1 0 79970 0 1 -140
 box 157485 15 202485 230015
 << end >>

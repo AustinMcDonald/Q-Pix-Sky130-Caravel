@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1663654425
+timestamp 1663665281
 << metal1 >>
 rect 5975 630 8170 635
 rect 5905 500 8170 630
@@ -100,19 +100,19 @@ rect 9935 -4405 10435 -3900
 rect 19170 -13135 19420 9365
 rect -3080 -13385 19420 -13135
 use sky130_ef_io__bare_pad  BarePad_0
-timestamp 1663653243
+timestamp 1661870102
 transform 1 0 265 0 1 270
 box -270 -270 6270 7270
 use sky130_ef_io__bare_pad  BarePad_1
-timestamp 1663653243
+timestamp 1661870102
 transform 1 0 265 0 1 -11040
 box -270 -270 6270 7270
 use sky130_ef_io__bare_pad  BarePad_2
-timestamp 1663653243
+timestamp 1661870102
 transform 1 0 10075 0 1 -11040
 box -270 -270 6270 7270
 use sky130_ef_io__bare_pad  BarePad_3
-timestamp 1663653243
+timestamp 1661870102
 transform 1 0 10075 0 1 270
 box -270 -270 6270 7270
 << end >>

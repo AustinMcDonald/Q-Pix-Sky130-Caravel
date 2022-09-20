@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1663653243
+timestamp 1661870102
 << metal4 >>
 rect -270 7258 6270 7270
 rect -270 7140 -258 7258
@@ -798,6 +798,10 @@ rect -270 -270 6270 -258
 << glass >>
 rect 0 0 6000 7000
 << labels >>
-rlabel metal5 3000 3500 3000 3500 1 PAD
-port 1 n
+flabel metal5 s -140 -140 6140 7140 0 FreeSans 1000 0 0 0 PAD
+port 1 nsew
+<< properties >>
+string GDS_END 11530
+string GDS_FILE $PDKPATH/libs.ref/sky130_fd_io/gds/sky130_ef_io__bare_pad.gds
+string GDS_START 134
 << end >>
