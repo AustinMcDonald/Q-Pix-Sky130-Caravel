@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1663653636
+timestamp 1663655995
 << nwell >>
 rect 7230 534660 7480 536800
 rect 7230 534610 7540 534660
@@ -14599,7 +14599,7 @@ timestamp 1663455834
 transform 0 -1 6193 1 0 336580
 box -5040 -7950 5960 250
 use mosarray  mosarray_0
-timestamp 1663653636
+timestamp 1663655995
 transform 1 0 3180 0 1 3240
 box 13000 -250 564910 675000
 use opamp_diego  opamp_diego_0
