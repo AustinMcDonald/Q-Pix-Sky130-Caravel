@@ -1471,6 +1471,30 @@ X148 a_5521_109# a_5431_21# a_5373_109# a_n5681_n1183# sky130_fd_pr__nfet_01v8 a
 X149 a_n2323_n1009# a_n2413_n1097# a_n2471_n1009# a_n5681_n1183# sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=4.5e+06u l=450000u
 .ends
 
+.subckt sky130_ef_io__bare_pad PAD
+.ends
+XBarePad_0 BarePad_0/PAD sky130_ef_io__bare_pad
+XBarePad_1 BarePad_1/PAD sky130_ef_io__bare_pad
+XBarePad_2 BarePad_2/PAD sky130_ef_io__bare_pad
+XBarePad_3 BarePad_3/PAD sky130_ef_io__bare_pad
+XBarePad_4 BarePad_4/PAD sky130_ef_io__bare_pad
+XBarePad_5 BarePad_5/PAD sky130_ef_io__bare_pad
+XBarePad_6 BarePad_6/PAD sky130_ef_io__bare_pad
+XBarePad_7 BarePad_7/PAD sky130_ef_io__bare_pad
+XBarePad_8 BarePad_8/PAD sky130_ef_io__bare_pad
+XBarePad_9 BarePad_9/PAD sky130_ef_io__bare_pad
+XBarePad_10 BarePad_10/PAD sky130_ef_io__bare_pad
+XBarePad_11 BarePad_11/PAD sky130_ef_io__bare_pad
+XBarePad_12 BarePad_12/PAD sky130_ef_io__bare_pad
+XBarePad_13 BarePad_13/PAD sky130_ef_io__bare_pad
+XBarePad_14 BarePad_14/PAD sky130_ef_io__bare_pad
+XBarePad_15 BarePad_15/PAD sky130_ef_io__bare_pad
+XBarePad_16 BarePad_16/PAD sky130_ef_io__bare_pad
+XBarePad_17 BarePad_17/PAD sky130_ef_io__bare_pad
+XBarePad_18 BarePad_18/PAD sky130_ef_io__bare_pad
+XBarePad_19 BarePad_19/PAD sky130_ef_io__bare_pad
+XBarePad_20 BarePad_20/PAD sky130_ef_io__bare_pad
+
 .subckt opamp_diego vdd iref vout vss vin_p vin_n
 Xsky130_fd_pr__pfet_01v8_YT7TV5_0[0] iref iref vdd vdd iref vdd iref vout iref iref
 + iref vdd iref vdd iref iref vout vout iref iref vdd vdd iref vdd vdd vout iref vout
