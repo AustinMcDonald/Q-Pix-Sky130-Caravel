@@ -1,5 +1,8 @@
 * NGSPICE file created from user_analog_project_wrapper.ext - technology: sky130A
 
+.subckt sky130_ef_io__bare_pad PAD
+.ends
+
 .subckt InverterBlock PD VIN VIP VCTRL VOP VON VDD VSS
 X0 VOP VSS sky130_fd_pr__cap_mim_m3_1 l=2e+06u w=1.25e+06u
 X1 VDD VCTRL VON VDD sky130_fd_pr__pfet_01v8 ad=3e+12p pd=1.4e+07u as=7.5e+11p ps=3.5e+06u w=1e+06u l=150000u
@@ -1988,23 +1991,23 @@ Xclassic-opamp_1 opamp_diego_1/vin_p BarePad_7/PAD gpio_analog[5] gpio_analog[4]
 + vssa2 vssa2 classic-opamp
 Xclassic-opamp_2 opamp_diego_2/vin_p BarePad_11/PAD io_analog[0] gpio_analog[6] vccd1
 + vssa2 vssa2 classic-opamp
-Xmosarray_0 vssa2 vssa2 vssa2 mosarray
 Xclassic-opamp_3 opamp_diego_3/vin_p BarePad_15/PAD io_analog[2] io_analog[1] vccd1
 + vssa2 vssa2 classic-opamp
+Xmosarray_0 vssa2 vssa2 vssa2 mosarray
 Xclassic-opamp_4 opamp_diego_4/vin_p BarePad_19/PAD io_analog[5] io_analog[4] vccd1
 + vssa2 vssa2 classic-opamp
 Xsky130_fd_sc_hs__buf_16_0 sky130_fd_sc_hs__buf_16_1/A vssa2 vccd1 gpio_noesd[3] vssa2
 + vccd1 sky130_fd_sc_hs__buf_16
-Xsky130_fd_sc_hs__buf_16_1 sky130_fd_sc_hs__buf_16_1/A vssa2 vccd1 gpio_noesd[2] vssa2
-+ vccd1 sky130_fd_sc_hs__buf_16
 Xclassic-opamp_5 opamp_diego_5/vin_p classic-opamp_5/Bias1 gpio_analog[13] gpio_analog[12]
 + vccd1 vssa2 vssa2 classic-opamp
-Xsky130_fd_sc_hs__buf_16_2 ComparatorQpixLayout_0/OUT vssa2 vccd1 io_analog[10] vssa2
+Xsky130_fd_sc_hs__buf_16_1 sky130_fd_sc_hs__buf_16_1/A vssa2 vccd1 gpio_noesd[2] vssa2
 + vccd1 sky130_fd_sc_hs__buf_16
-Xopamp_diego_1 vccd1 BarePad_6/PAD BarePad_5/PAD vssa2 opamp_diego_1/vin_p BarePad_5/PAD
-+ opamp_diego
 Xopamp_diego_0 vccd1 BarePad_4/PAD BarePad_0/PAD vssa2 opamp_diego_0/vin_p BarePad_0/PAD
 + opamp_diego
+Xopamp_diego_1 vccd1 BarePad_6/PAD BarePad_5/PAD vssa2 opamp_diego_1/vin_p BarePad_5/PAD
++ opamp_diego
+Xsky130_fd_sc_hs__buf_16_2 ComparatorQpixLayout_0/OUT vssa2 vccd1 io_analog[10] vssa2
++ vccd1 sky130_fd_sc_hs__buf_16
 Xopamp_diego_2 vccd1 BarePad_10/PAD BarePad_9/PAD vssa2 opamp_diego_2/vin_p BarePad_9/PAD
 + opamp_diego
 Xopamp_diego_3 vccd1 BarePad_14/PAD BarePad_13/PAD vssa2 opamp_diego_3/vin_p BarePad_13/PAD
